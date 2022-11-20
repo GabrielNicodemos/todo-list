@@ -1,0 +1,107 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -2rem;
+}
+
+.formInput input {
+    flex: 1;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    font-size: 1.25rem;
+} 
+
+.formInput button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    transition: background-color 0.1s; 
+    font-weight: bold;
+}
+
+.iconBtn {
+    margin-left: 5px;
+}
+.formInput button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+}
+
+.content {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content > header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--gray-400);
+    margin-bottom: 3rem;
+}
+
+.content > header p {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.content > header p > span {
+    color: var(--white);
+    border-radius: 10px;
+    background: var(--gray-400);
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.2rem;
+}
+
+.todos {
+    width: 100%;
+}
+
+.todoListEmpaty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoListEmpaty > h2 {
+    font-size: 1.25rem;
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.todoListEmpaty > p {
+    font-size: 1rem;
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
